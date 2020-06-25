@@ -18,6 +18,7 @@ $(document).ready(function(){
        $(this).children(".description").addClass("past")
        $(this).children(".description").addClass("future")
     })
+    
    
 
     $("#hour-9 .description").val(localStorage.getItem("hour-9"));
